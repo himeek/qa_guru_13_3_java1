@@ -1,4 +1,4 @@
-public class guru_qa {
+public class JavaBasicOperationTest {
 
     public static void main (String[] args) {
 
@@ -30,6 +30,12 @@ public class guru_qa {
         int minus2 = -1000000000;
         int minus3 = minus1 + minus2;
         System.out.println(minus3); // переполнение (в другую сторону)
+
+        char ch = 'a'; // символ UTF-16 (буквы и цифры)
+        System.out.println('a' + 13);
+
+        String str = "Hello, world!";
+        System.out.println(str);
 
     }
 }
